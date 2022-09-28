@@ -1,0 +1,20 @@
+//PROGRAM CALCULATOR BANGUN RUANG (Kubus)
+#include <iostream>
+using namespace std;
+int
+main ()
+{
+  float rumus, volumeKubus, s;
+  int sisi;
+
+  cout << "***** Volume Kubus ******";
+  cout << endl;
+  if (volumeKubus == 1)
+    cout << "Volume Kubus \n";
+  cout << "masukkan sisi :";
+  cin >> sisi;
+  rumus = sisi * sisi * sisi;
+  cout << "Hasil Volumenya =" << rumus;
+  return 0;
+
+}
